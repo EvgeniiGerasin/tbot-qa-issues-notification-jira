@@ -91,8 +91,8 @@ class SqlManager:
                 screenshot INTEGER,
                 jira BOOLEAN DEFAULT FALSE,
                 date_created TEXT NOT NULL,
-                username TEXT NOT NULL
-                jira_issues_url DEFAULT NULL,
+                username TEXT NOT NULL,
+                jira_issues_url TEXT DEFAULT NULL  -- Указываем тип данных (например, TEXT)
             );
         """
         try:
