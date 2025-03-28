@@ -1,0 +1,1 @@
+# tbot-qa-issues-notification-jira
